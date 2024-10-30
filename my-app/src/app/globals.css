@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+ background-color:blue;
+padding: 15px;
+color: white;
+}
+.header-button{
+    display: flex ;
+   justify-content:right;
+  align-items: center;
+  gap: 15px;
+    
+}
+body{
+    background-color: greenyellow;
+}
+.parentcontainer{
+    display: flex;
+    align-items: center;
+    margin-left:10px ;
+    margin-bottom:10px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    justify-items: center;
+
+}
+.childcontainer{
+    width:180px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.35);
+    margin-left:50px ;
+    margin-top: 40px;
+}
+.imagecontainer{
+    width: 170px;
+    height: 5px;
+    margin: 8px;
+    margin-left: 5px;
+    border-radius: 20px;
+   
+}
+.title{
+    text-align: centre;
+    font-size: large;
+    margin:5px;
+    margin-left:50px;
+}
+.description{
+    font-size:.53rem;
+    margin:.6rem;
+    margin-left:.5rem;
+    margin-right: .5rem;
+    align-items:justify;
+}
+.childcontainer2 {
+    width: 180px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0,0,0,0.35);
+    margin-left:50px ;
+    margin-top: 40px;
+}  
+    .childcontainer3{
+        width: 180px;
+        height: 300px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: rgba(0,0,0,0.35);
+        margin-left:50px ;
+        margin-top: 40px;
+    }
+        .childcontainer4{
+            width: 180px;
+            height: 300px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: rgba(0,0,0,0.35);
+            margin-left:50px ;
+            margin-top: 40px;
+        }
+            .childcontainer5{
+                width: 180px;
+                height: 300px;
+                background-color: white;
+                border-radius: 8px;
+                box-shadow: rgba(0,0,0,0.35);
+                margin-left:50px ;
+                margin-top: 40px;
+            }
+                .childcontainer6{
+                    width: 180px;
+                    height: 300px;
+                    background-color: white;
+                    border-radius: 8px;
+                    box-shadow: rgba(0,0,0,0.35);
+                    margin-left:50px ;
+                    margin-top: 40px;
+                }
+                .footer{
+                    display:flex;
+                    justify-content: center;
+                    margin-top: 60px;
+                    background-color: blue;
+                    align-items: center;
+                    text-align: center;
+                    color: beige;
+                    padding: 1px;}
+
+                .imagecontainer2{
+                    width: 170px;
+                    height: 5px;
+                    margin: 8px;
+                    margin-left: 5px;
+                    border-radius: 20px;
+                }
+                    .imagecontainer3{
+                        width: 170px;
+                        height: 5px;
+                        margin: 8px;
+                        margin-left: 5px;
+                        border-radius: 20px;
+                    }
+                        .imagecontainer4{
+                            width: 170px;
+                            height: 5px;
+                            margin: 8px;
+                            margin-left: 5px;
+                            border-radius: 20px;
+                        }
+                            .imagecontainer5{
+                                width: 170px;
+                                height: 5px;
+                                margin: 8px;
+                                margin-left: 5px;
+                                border-radius: 20px;
+                            }
+                                .imagecontainer6{
+                                    width: 170px;
+                                    height: 5px;
+                                    margin: 8px;
+                                    margin-left: 5px;
+                                    border-radius: 20px;
+                                }
+
+                                .readMore{
+                                    color: blue;
+                                    text-decoration: underline;
+                                    cursor: pointer;
+                                    align-items: center;
+                                    display: flex;
+                                    padding:5px 20px;
+                                    margin-bottom: 10px;
+                                    background-color:red;
+                                    border-radius: 20px;
+                                    margin-top: 1px;
+                                    margin:15px;
+                                    margin-right: 10px;
+                                    margin-right: 10px;
+                                }
+                                      
+                                .readMore2{
+                                    color: blue;
+                                    text-decoration: underline;
+                                    cursor: pointer;
+                                    align-items: center;
+                                    display: flex;
+                                    padding:5px 20px;
+                                    margin-bottom: 10px;
+                                    background-color:red;
+                                    border-radius: 20px;
+                                    margin-top: 1px;
+                                    margin:15px;
+                                    margin-right: 10px;
+                                    margin-right: 10px;
+                                }
+
+                                .readMore3{
+                                    color: blue;
+                                    text-decoration: underline;
+                                    cursor: pointer;
+                                    align-items: center;
+                                    display: flex;
+                                    padding:5px 20px;
+                                    margin-bottom: 10px;
+                                    background-color:red;
+                                    border-radius: 20px;
+                                    margin-top: 1px;
+                                    margin:15px;
+                                    margin-right: 10px;
+                                    margin-right: 10px;
+                                }
+
+                                .readMore4{
+                                    color: blue;
+                                    text-decoration: underline;
+                                    cursor: pointer;
+                                    align-items: center;
+                                    display: flex;
+                                    padding:5px 20px;
+                                    margin-bottom: 10px;
+                                    background-color:red;
+                                    border-radius: 20px;
+                                    margin-top: 1px;
+                                    margin:15px;
+                                    margin-right: 10px;
+                                    margin-right: 10px;
+                                }
+
+                                .readMore5{
+                                    color: blue;
+                                    text-decoration: underline;
+                                    cursor: pointer;
+                                    align-items: center;
+                                    display: flex;
+                                    padding:5px 20px;
+                                    margin-bottom: 10px;
+                                    background-color:red;
+                                    border-radius: 20px;
+                                    margin-top: 1px;
+                                    margin:15px;
+                                    margin-right: 10px;
+                                    margin-right: 10px;
+                                }
+
+                                .readMore6{
+                                    color: blue;
+                                    text-decoration: underline;
+                                    cursor: pointer;
+                                    align-items: center;
+                                    display: flex;
+                                    padding:5px 20px;
+                                    margin-bottom: 10px;
+                                    background-color:red;
+                                    border-radius: 20px;
+                                    margin-top: 1px;
+                                    margin:15px;
+                                    margin-right: 10px;
+                                    margin-right: 10px;
+                                }
